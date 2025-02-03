@@ -11,7 +11,9 @@ int main()
     while (loop)
     {
         int opsioni = shfaqMenu();
-        ifstream inFile("detyrat.txt"); // Hap skedarin për lexim
-        ofstream outFile; // Hapet më vonë nëse është e nevojshme
+        ifstream inFile("detyrat.txt");
+        ofstream outFile;
     }
+
+    return 0;
 }
