@@ -47,6 +47,10 @@ int main()
 
 
         case 4: // Dalje nga programi
+            cout << "\nDuke dale nga programi...\n";
+            sleep(1);
+            loop = false;
+            break;
         }
     }
 
