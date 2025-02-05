@@ -26,7 +26,37 @@ int main()
         switch (opsioni)
         {
         case 1: // Shfaq detyrat
+            if (!inFile) {
 
+                cout << "\nNuk ka detyra te regjistruara!\n";
+
+            } else {
+
+                while (getline(inFile, detyrat))
+
+                {
+
+                    listaDetyrave.push_back(detyrat);
+
+                    cout << i << ": " << detyrat << endl;
+
+                    i++;
+
+                }
+
+                if (listaDetyrave.empty()) {
+
+                    cout << "\nNuk ka detyra per t'u shfaqur!\n";
+
+                }
+
+            }
+
+            inFile.close();
+
+            sleep(1);
+
+            break;
 
         case 2: // Shto detyre
             cout << "\nShto detyren: ";
