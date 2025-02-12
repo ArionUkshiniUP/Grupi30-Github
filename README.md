@@ -35,6 +35,18 @@ Ky projekt përfaqëson një **aplikacion të thjeshtë për menaxhimin e detyra
    ./todoApp
    ```
 
+### **Shembull i ekzekutimit të kodit**  
+Më poshtë janë disa screenshote nga ekzekutimi i programit:
+
+#### **Menyja Kryesore**  
+![Menyja Kryesore](Screenshots/Code_1.png)  
+
+#### **Shtimi i një detyre të re**  
+![Shtimi i detyrës](Screenshots/Code_2.png)  
+
+#### **Fshirja e një detyre**  
+![Fshirja e detyrës](Screenshots/Code_3.png)  
+
 ## **Kontributet dhe versionimi**  
 Ky projekt është menaxhuar përmes **GitHub**, duke përdorur:  
 ✅ **Branching dhe Pull Requests** për integrimin e ndryshimeve.  
