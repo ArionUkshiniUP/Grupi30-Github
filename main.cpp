@@ -5,9 +5,7 @@
 #include <unistd.h>
 #include "menu.cpp"
 
-
 using namespace std;
-
 
 int main()
 {
@@ -21,7 +19,6 @@ int main()
         vector<string> listaDetyrave;
         string detyra;
         string detyrat;
-
 
         switch (opsioni)
         {
@@ -72,7 +69,8 @@ int main()
             sleep(1);
             break;
 
-       case 3:  inFile.clear();  // Reset file flags
+       case 3:  // Fshirja e detyrave
+            inFile.clear();  // Reset file flags
             inFile.seekg(0); // Shko në fillim të skedarit
 
             while (getline(inFile, detyrat))
@@ -119,8 +117,6 @@ int main()
             }
             sleep(1);
             break;
-        
-
 
         case 4: // Dalje nga programi
             cout << "\nDuke dale nga programi...\n";
@@ -128,7 +124,7 @@ int main()
             loop = false;
             break;
             
-      default: // Default case for invalid input
+      default: // Per inpute invalide
             cout << "\nOpsion i pavlefshem! Ju lutem zgjidhni nje opsion te vlefshem.\n";
             sleep(1);
             break;
@@ -138,6 +134,3 @@ int main()
 
     return 0;
 }
-
-
-
