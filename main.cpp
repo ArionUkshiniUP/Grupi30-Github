@@ -72,7 +72,7 @@ int main()
             sleep(1);
             break;
 
-            inFile.clear();  // Reset file flags
+       case 3:  inFile.clear();  // Reset file flags
             inFile.seekg(0); // Shko në fillim të skedarit
 
             while (getline(inFile, detyrat))
