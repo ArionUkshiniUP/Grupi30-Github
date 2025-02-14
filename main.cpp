@@ -127,6 +127,11 @@ int main()
             sleep(1);
             loop = false;
             break;
+            
+      default: // Default case for invalid input
+            cout << "\nOpsion i pavlefshem! Ju lutem zgjidhni nje opsion te vlefshem.\n";
+            sleep(1);
+            break;
         }
     }
 
